@@ -70,12 +70,10 @@
             // 
             textBox1.BackColor = SystemColors.Control;
             textBox1.Location = new Point(34, 83);
-            textBox1.MaximumSize = new Size(208, 53);
-            textBox1.MinimumSize = new Size(208, 53);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.ReadOnly = true;
-            textBox1.Size = new Size(208, 53);
+            textBox1.Size = new Size(215, 53);
             textBox1.TabIndex = 3;
             textBox1.Text = "\"Amanece. El mundo renace.\"";
             // 
