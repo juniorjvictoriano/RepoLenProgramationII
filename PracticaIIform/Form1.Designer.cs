@@ -28,12 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            label1 = new Label();
+            SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(91, 47);
+            label1.Name = "label1";
+            label1.Size = new Size(297, 15);
+            label1.TabIndex = 0;
+            label1.Text = "\"¡Bienvenido al formulario de Junior y SD-2023-06077!\".";
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(489, 120);
+            Controls.Add(label1);
+            MaximumSize = new Size(505, 159);
+            MinimumSize = new Size(505, 159);
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Bienvenido";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label label1;
     }
 }
