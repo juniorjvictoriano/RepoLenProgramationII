@@ -103,6 +103,7 @@
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Bienvenido";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
