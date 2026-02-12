@@ -29,74 +29,22 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            label2 = new Label();
-            button1 = new Button();
-            textBox1 = new TextBox();
-            button2 = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(34, 18);
+            label1.Location = new Point(12, 74);
             label1.Name = "label1";
             label1.Size = new Size(297, 15);
             label1.TabIndex = 0;
             label1.Text = "\"¡Bienvenido al formulario de Junior y SD-2023-06077!\".";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Cursor = Cursors.Help;
-            label2.Location = new Point(34, 51);
-            label2.Name = "label2";
-            label2.Size = new Size(174, 15);
-            label2.TabIndex = 1;
-            label2.Text = "Aquí se mostrara el texto nuevo";
-            label2.Click += label2_Click;
-            // 
-            // button1
-            // 
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(34, 142);
-            button1.Name = "button1";
-            button1.Size = new Size(101, 23);
-            button1.TabIndex = 2;
-            button1.Text = "Cambiar texto";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = SystemColors.Control;
-            textBox1.Location = new Point(34, 83);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.ReadOnly = true;
-            textBox1.Size = new Size(215, 53);
-            textBox1.TabIndex = 3;
-            textBox1.Text = "\"Amanece. El mundo renace.\"";
-            // 
-            // button2
-            // 
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Location = new Point(141, 142);
-            button2.Name = "button2";
-            button2.Size = new Size(107, 23);
-            button2.TabIndex = 4;
-            button2.Text = "Transferir texto";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(484, 185);
-            Controls.Add(button2);
-            Controls.Add(textBox1);
-            Controls.Add(button1);
-            Controls.Add(label2);
             Controls.Add(label1);
             MaximumSize = new Size(500, 224);
             MinimumSize = new Size(500, 224);
@@ -111,9 +59,5 @@
         #endregion
 
         private Label label1;
-        private Label label2;
-        private Button button1;
-        private TextBox textBox1;
-        private Button button2;
     }
 }
