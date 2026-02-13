@@ -37,7 +37,7 @@
             // 
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(38, 29);
+            listBox1.Location = new Point(38, 39);
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(127, 19);
             listBox1.TabIndex = 0;
@@ -50,6 +50,7 @@
             button1.TabIndex = 1;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // textBox1
             // 
