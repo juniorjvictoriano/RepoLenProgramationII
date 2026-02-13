@@ -52,7 +52,7 @@
             // button1
             // 
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(24, 215);
+            button1.Location = new Point(23, 215);
             button1.MaximumSize = new Size(50, 50);
             button1.MinimumSize = new Size(50, 50);
             button1.Name = "button1";
@@ -65,7 +65,7 @@
             // button2
             // 
             button2.FlatStyle = FlatStyle.Flat;
-            button2.Location = new Point(80, 215);
+            button2.Location = new Point(79, 215);
             button2.MaximumSize = new Size(50, 50);
             button2.MinimumSize = new Size(50, 50);
             button2.Name = "button2";
@@ -91,7 +91,7 @@
             // button4
             // 
             button4.FlatStyle = FlatStyle.Flat;
-            button4.Location = new Point(24, 159);
+            button4.Location = new Point(23, 159);
             button4.MaximumSize = new Size(50, 50);
             button4.MinimumSize = new Size(50, 50);
             button4.Name = "button4";
@@ -104,7 +104,7 @@
             // button5
             // 
             button5.FlatStyle = FlatStyle.Flat;
-            button5.Location = new Point(80, 159);
+            button5.Location = new Point(79, 159);
             button5.MaximumSize = new Size(50, 50);
             button5.MinimumSize = new Size(50, 50);
             button5.Name = "button5";
@@ -130,7 +130,7 @@
             // button7
             // 
             button7.FlatStyle = FlatStyle.Flat;
-            button7.Location = new Point(24, 103);
+            button7.Location = new Point(23, 103);
             button7.MaximumSize = new Size(50, 50);
             button7.MinimumSize = new Size(50, 50);
             button7.Name = "button7";
@@ -143,7 +143,7 @@
             // button8
             // 
             button8.FlatStyle = FlatStyle.Flat;
-            button8.Location = new Point(80, 103);
+            button8.Location = new Point(79, 103);
             button8.MaximumSize = new Size(50, 50);
             button8.MinimumSize = new Size(50, 50);
             button8.Name = "button8";
@@ -169,7 +169,7 @@
             // button10
             // 
             button10.FlatStyle = FlatStyle.Flat;
-            button10.Location = new Point(24, 271);
+            button10.Location = new Point(23, 271);
             button10.MaximumSize = new Size(50, 50);
             button10.MinimumSize = new Size(50, 50);
             button10.Name = "button10";
@@ -191,7 +191,8 @@
             // 
             button15.BackColor = SystemColors.ControlDarkDark;
             button15.FlatStyle = FlatStyle.Flat;
-            button15.Location = new Point(134, 271);
+            button15.ForeColor = SystemColors.ActiveCaptionText;
+            button15.Location = new Point(190, 271);
             button15.MaximumSize = new Size(50, 50);
             button15.MinimumSize = new Size(50, 50);
             button15.Name = "button15";
@@ -204,7 +205,7 @@
             // button16
             // 
             button16.FlatStyle = FlatStyle.Flat;
-            button16.Location = new Point(189, 271);
+            button16.Location = new Point(134, 271);
             button16.MaximumSize = new Size(50, 50);
             button16.MinimumSize = new Size(50, 50);
             button16.Name = "button16";
@@ -257,9 +258,10 @@
             // 
             button11.BackColor = Color.Brown;
             button11.FlatStyle = FlatStyle.Flat;
-            button11.Location = new Point(24, 74);
+            button11.ForeColor = SystemColors.ButtonHighlight;
+            button11.Location = new Point(23, 74);
             button11.Name = "button11";
-            button11.Size = new Size(75, 23);
+            button11.Size = new Size(50, 23);
             button11.TabIndex = 11;
             button11.Text = "AC";
             button11.UseVisualStyleBackColor = false;
@@ -268,7 +270,7 @@
             // button12
             // 
             button12.FlatStyle = FlatStyle.Flat;
-            button12.Location = new Point(80, 271);
+            button12.Location = new Point(79, 271);
             button12.MaximumSize = new Size(50, 50);
             button12.MinimumSize = new Size(50, 50);
             button12.Name = "button12";
@@ -280,10 +282,11 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(24, 25);
+            textBox1.Location = new Point(22, 25);
             textBox1.MaximumSize = new Size(216, 23);
             textBox1.MinimumSize = new Size(216, 23);
             textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
             textBox1.Size = new Size(216, 23);
             textBox1.TabIndex = 16;
             // 
@@ -311,8 +314,10 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
+            MaximumSize = new Size(278, 387);
+            MinimumSize = new Size(278, 387);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Calculadora";
             ResumeLayout(false);
             PerformLayout();
         }
