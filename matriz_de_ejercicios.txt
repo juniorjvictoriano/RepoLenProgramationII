@@ -1,0 +1,76 @@
+MATRIZ RESUMEN DE EJERCICIOS – WINDOWS FORMS (C#)
+
+Probar formulario directamente
+Controles: Form
+Evento: Application.Run()
+Función: Ejecutar un formulario específico sin pasar por otros
+
+Cambiar texto de una etiqueta
+Controles: Button, Label
+Evento: Click
+Función: Modificar el texto de un Label al presionar un botón
+
+Suma de dos números
+Controles: TextBox, Button, Label
+Evento: Click
+Función: Sumar dos valores ingresados por el usuario
+
+Selección con RadioButton
+Controles: RadioButton, Button, Label
+Evento: Click
+Función: Mostrar la opción seleccionada
+
+Lista desplegable de colores
+Controles: ComboBox, Form
+Evento: SelectedIndexChanged
+Función: Cambiar el color de fondo del formulario
+
+Lista de elementos
+Controles: TextBox, Button, ListBox
+Evento: Click
+Función: Agregar elementos a una lista
+
+Contador de clics
+Controles: Button, Label
+Evento: Click
+Función: Contar cuántas veces se presiona un botón
+
+Validación numérica
+Controles: TextBox, Button
+Evento: Click
+Función: Validar si la entrada es un número
+
+Mensaje emergente
+Controles: Button
+Evento: Click
+Función: Mostrar un MessageBox con un mensaje
+
+Selector de fecha
+Controles: DateTimePicker, Button, Label
+Evento: Click
+Función: Mostrar la fecha seleccionada
+
+Conversión de temperatura
+Controles: TextBox, Button, Label
+Evento: Click
+Función: Convertir Celsius a Fahrenheit
+
+Barra de progreso
+Controles: ProgressBar, Button, Timer
+Evento: Tick
+Función: Iniciar y detener una barra de progreso
+
+Control de pestañas
+Controles: TabControl, TabPage, Label
+Evento: —
+Función: Mostrar texto distinto en cada pestaña
+
+Manejo de archivos de texto
+Controles: OpenFileDialog, SaveFileDialog, TextBox
+Evento: Click
+Función: Abrir y guardar archivos de texto
+
+Calculadora básica
+Controles: TextBox, Buttons (0–9, +, -, *, /, ., =, AC)
+Evento: Click
+Función: Realizar operaciones aritméticas básicas
